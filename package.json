@@ -10,7 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "astro build && wrangler pages deploy dist --project-name=blog-site"
+    "deploy": "astro build && npx wrangler pages deploy dist --project-name=noctilumen"
   },
   "dependencies": {
     "@astrojs/mdx": "8.0.0",
